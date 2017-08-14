@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keyword" content="">
+	<meta name="author" content="Dirobu">
+	<title>Website Title</title>
+	<script src="js/tilebot.js"></script>
+	<script src="js/tilebot-bgimg.min.js"></script>
+	<script src="js/tilebot-grid.min.js"></script>
+	<script src="js/tilebot-copy.min.js"></script>
+	<script src="js/tilebot-fill.min.js"></script>
+	<script src="js/tilebot-cube.min.js"></script>
+	<script></script>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+	<!--<link rel="stylesheet" href="css/tilebot.css">-->
+	<style>
+		.divA{background: #666666; min-height: 100px;}
+		.divB{background: #333333; min-height: 100px;}
+		.w{width: 100px;}
+		.h{height: 200px;}
+	</style>
+</head>
+<body class="" onresize="">
+
+	<div id="a1" style="background: #d64d4d;" tilebot-grid="12,3,3">a1<br>tilebot-grid="12,3,3"</div>
+	<div id="a2" style="background: #4b3d69;" tilebot-grid="12,6,6">a2<br>tilebot-grid="12,6,6"</div>
+	<div id="a3" style="background: #08457e;" tilebot-grid="12,3,3">a3<br>tilebot-grid="12,3,3"</div>
+
+	<br>
+	<br>
+	<br>
+
+	<div id="b1" style="background: #d64d4d;" tilebot-grid="100%,25%,25%">b1<br>tilebot-grid="100%,25%,25%"</div>
+	<div id="b2" style="background: #4b3d69;" tilebot-grid="100%,50%,50%">b2<br>tilebot-grid="100%,50%,50%"</div>
+	<div id="b3" style="background: #08457e;" tilebot-grid="100%,25%,25%">b3<br>tilebot-grid="100%,25%,25%"</div>
+
+	<br>
+	<br>
+	<br>
+
+	<div id="c1" style="background: #d64d4d;" tilebot-grid="0px,0px,200px">c1<br>tilebot-grid="0px,0px,200px"</div>
+	<div id="c2" style="background: #4b3d69;" tilebot-fill="width:c1,c3">c2<br>tilebot-fill="width:c1,c2"</div>
+	<div id="c3" style="background: #08457e;" tilebot-grid="0px,0px,200px">c3<br>tilebot-grid="0px,0px,200px"</div>
+
+	<br>
+	<br>
+	<br>
+
+	<div id="d1" style="background: #d64d4d;" tilebot-grid="12,0,0">d1<br>tilebot-grid="0px,0px,200px"</div>
+	<div id="d2" style="background: #4b3d69;" tilebot-fill="width: d1,d3">d2<br>tilebot-fill="width:d1,d2"</div>
+	<div id="d3" style="background: #08457e;" tilebot-grid="12,0,0">d3<br>tilebot-grid="0px,0px,200px"</div>
+
+	<br>
+	<br>
+	<br>
+
+	<img id="e1" tilebot-grid="12,6,3" src="https://static.pexels.com/photos/33109/fall-autumn-red-season.jpg">
+	<div id="e2" style="background: #4b3d69;" tilebot-copy="height: e1">e2<br>tilebot-copy="height: e1"</div>
+
+	<br>
+	<br>
+	<br>
+
+
+	<img id="f1" tilebot-grid="12,6,3" src="https://static.pexels.com/photos/33109/fall-autumn-red-season.jpg">
+	<div id="f2" style="background: #4b3d69;" tilebot-grid="12,3,3" tilebot-copy="height: f1">f2<br>tilebot-copy="height: f1"<br>tilebot-grid="12,3,3"</div>
+
+	<br>
+	<br>
+	<br>
+
+	<div id="g1" style="color: #ffffff; height: 200px;" tilebot-grid="6,6,3" tilebot-bgimg="https://static.pexels.com/photos/34616/pexels-photo.jpg">g1<br>tilebot-grid="6,6,3"<br>tilebot-bgimg="url"</div>
+	<div id="g2" style="color: #ffffff; height: 200px;" tilebot-grid="6,6,3" tilebot-bgimg="https://static.pexels.com/photos/34164/pexels-photo.jpg">g2<br>tilebot-grid="6,6,3"<br>tilebot-bgimg="url"</div>
+	<div id="g3" style="color: #ffffff; height: 200px;" tilebot-grid="6,6,3" tilebot-bgimg="https://static.pexels.com/photos/34126/pexels-photo.jpg">g3<br>tilebot-grid="6,6,3"<br>tilebot-bgimg="url"</div>
+	<div id="g4" style="color: #ffffff; height: 200px;" tilebot-grid="6,6,3" tilebot-bgimg="https://static.pexels.com/photos/19072/indoors-office-macbook-computer.jpg">g4<br>tilebot-grid="6,6,3"<br>tilebot-bgimg="url"</div>
+
+	<br>
+	<br>
+	<br>
+
+	<div id="g1" style="color: #ffffff; margin: 10px;" tilebot-grid="10,5,2" tilebot-cube="width" tilebot-bgimg="https://static.pexels.com/photos/34616/pexels-photo.jpg">g1<br>tilebot-grid="6,6,3"<br>tilebot-cube="width"<br>tilebot-bgimg="url"</div>
+	<div id="g2" style="color: #ffffff; margin: 10px;" tilebot-grid="10,5,2" tilebot-cube="width" tilebot-bgimg="https://static.pexels.com/photos/34164/pexels-photo.jpg">g2<br>tilebot-grid="6,6,3"<br>tilebot-cube="width"<br>tilebot-bgimg="url"</div>
+	<div id="g3" style="color: #ffffff; margin: 10px;" tilebot-grid="10,5,2" tilebot-cube="width" tilebot-bgimg="https://static.pexels.com/photos/34126/pexels-photo.jpg">g3<br>tilebot-grid="6,6,3"<br>tilebot-cube="width"<br>tilebot-bgimg="url"</div>
+	<div id="g4" style="color: #ffffff; margin: 10px;" tilebot-grid="10,5,2" tilebot-cube="width" tilebot-bgimg="https://static.pexels.com/photos/19072/indoors-office-macbook-computer.jpg">g4<br>tilebot-grid="6,6,3"<br>tilebot-cube="width"<br>tilebot-bgimg="url"</div>
+
+	<br>
+	<br>
+	<br>
+
+</body>
+</html>
