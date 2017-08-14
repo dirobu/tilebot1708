@@ -20,4 +20,4 @@ window.onload = function(){
 	tilebot.refresh.plugins();
 	tilebot.refresh.tiles();
 };
-document.head.innerHTML+= '<style>body {padding: 0px; margin: 0px; text-align: center;}body > * {vertical-align: text-top; display: inline-block;}</style>';
+document.head.innerHTML+= '<style>body {min-height: 100%; padding: 0px; margin: 0px; text-align: center;}body > * {vertical-align: text-top; display: inline-block;}</style>';
